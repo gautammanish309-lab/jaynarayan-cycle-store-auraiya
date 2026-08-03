@@ -220,3 +220,19 @@ h1 span{
     margin-top:15px;
     text-align:center;
 }
+.owner-box{
+    position:absolute;
+    right:80px;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:999;
+}
+
+.owner-photo{
+    width:300px;
+    height:300px;
+    display:block;
+    object-fit:cover;
+    border-radius:50%;
+    border:8px solid #FFD700;
+}
