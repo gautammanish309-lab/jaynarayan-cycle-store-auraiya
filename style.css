@@ -185,3 +185,38 @@ h1 span{
     font-size:0.72em;
     letter-spacing:0.12em;
 }
+.hero-actions{
+    margin-top:45px;
+}
+.brand span{
+    font-size:11px;
+    letter-spacing:0.08em;
+}
+.owner-box{
+    position:absolute;
+    right:80px;
+    top:50%;
+    transform:translateY(-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    z-index:50;
+}
+
+.owner-photo{
+    display:block;
+    width:280px;
+    height:280px;
+    object-fit:cover;
+    border-radius:50%;
+    border:7px solid #FFD700;
+    box-shadow:
+    0 0 0 8px rgba(255,215,0,.18),
+    0 0 40px rgba(255,215,0,.55);
+}
+
+.owner-nameplate{
+    display:block;
+    margin-top:15px;
+    text-align:center;
+}
