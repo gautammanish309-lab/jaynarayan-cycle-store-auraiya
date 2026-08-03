@@ -180,3 +180,8 @@
 .owner-nameplate{
     margin-top:8px;
 }
+h1 span{
+    display:block;
+    font-size:0.72em;
+    letter-spacing:0.12em;
+}
