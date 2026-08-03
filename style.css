@@ -82,8 +82,9 @@
 
 .owner-nameplate h2{
     color:#FFD700;
-    font-size:34px;
-    letter-spacing:3px;
+    font-size:28px;
+    font-weight:700;
+    letter-spacing:2px;
     margin-bottom:6px;
     text-transform:uppercase;
 }
@@ -136,4 +137,21 @@
 
 .owner-nameplate:hover .gold-line{
     width:140px;
+}
+.owner-box{
+    animation:floatOwner 4s ease-in-out infinite;
+}
+
+@keyframes floatOwner{
+    0%{
+        transform:translateX(-100px) translateY(0);
+    }
+
+    50%{
+        transform:translateX(-100px) translateY(-10px);
+    }
+
+    100%{
+        transform:translateX(-100px) translateY(0);
+    }
 }
