@@ -68,17 +68,15 @@
 }
 
 }
-/* Owner Section */
-
 .owner-box{
     position:absolute;
-    right:130px;
-    top:52%;
-    transform:translateY(-50%);
+    right:10px;
+    top:46%;
     display:flex;
     flex-direction:column;
     align-items:center;
     z-index:20;
+    animation:floatOwner 4s ease-in-out infinite;
 }
 
 .owner-photo{
@@ -159,17 +157,19 @@
 }
 
 @keyframes floatOwner{
+
     0%{
-        transform:translateX(-100px) translateY(0);
+        transform:translateY(-50%);
     }
 
     50%{
-        transform:translateX(-100px) translateY(-10px);
+        transform:translateY(calc(-50% - 10px));
     }
 
     100%{
-        transform:translateX(-100px) translateY(0);
+        transform:translateY(-50%);
     }
+
 }
 .owner-nameplate p{
     color:#d4d4d4;
