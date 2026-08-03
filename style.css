@@ -72,7 +72,7 @@
 }
 .owner-box{
     position:absolute;
-    right:40px;
+    right:60px;
     top:46%;
     display:flex;
     flex-direction:column;
