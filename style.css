@@ -20,12 +20,14 @@
 .hero-content{
     max-width:1240px;
     margin:auto;
-    padding:clamp(90px,13vh,160px) 48px 0;
+    padding:clamp(90px,13vh,160px) 20px 0;
 
     display:flex;
     justify-content:space-between;
     align-items:center;
     gap:70px;
+
+    transform:translateX(-40px);
 }
 
 .hero-text{
